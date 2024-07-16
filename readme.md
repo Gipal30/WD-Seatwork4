@@ -87,9 +87,7 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|   |   └─ placeholder
 └─ pages
 |  └─ feature1
 |  |  └─ assets
