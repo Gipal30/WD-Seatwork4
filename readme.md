@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Feature Page</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A project that challenged us to create two distinct styles of feature pages. It aims to put our previous project knowledge and skills to the test. Each page will include a variety of features created with CSS.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Gipal30/WD-Seatwork4)
 
 ---
 
@@ -59,11 +59,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+It is a collection of three pages, the first being the landing page, which connects to the other two pages, which contain various types of feature pages. The feature pages put our previous project skills to the test by requiring us to design and add elements with animations. We were told we could use CSS to create those features.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -99,14 +95,29 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ feature1
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |     └─ aerodynamics.jpg
+|  |  |     └─ bmw-s1000rr.jpg
+|  |  |     └─ dynamic.jpg
+|  |  |     └─ electronics.jpg
+|  |  |     └─ engine.jpg
+|  |  |     └─ exhaust.jpg
+|  |  |     └─ rearview.jpg
+|  |  |     └─ sideview.jpg
+|  |  └─ index.html
+|  └─ feature2
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |     └─ camera.jpg
+|     |     └─ chip.png
+|     |     └─ display.png
+|     |     └─ iphone15.jpeg
 |     └─ index.html
 └─ index.html
 └─ readme.md
