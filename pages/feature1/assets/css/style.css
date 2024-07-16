@@ -1,1 +1,233 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Urbanist", "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.menu {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu .choices a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.menu .choices a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 400px;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hero-buttons .btn:hover {
+  background: #ddd;
+}
+
+.features {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.features h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.features .highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.features .highlight {
+  flex: 1 1 300px;
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.features .highlight img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.gallery {
+  padding: 2rem;
+}
+
+.gallery h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gallery .image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery .p1 {
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gallery .p1 img {
+  flex: 1 1 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gallery .p1information {
+  flex: 1 1 50%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.gallery .p2 img {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  height: auto;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.cta {
+  background: #000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta h1 {
+  margin-bottom: 1rem;
+}
+
+.cta-buttons .btn {
+  margin: 0.5rem;
+}
+
+#technical-data {
+  padding: 2rem;
+  align-items: center;
+}
+
+#technical-data h2,
+#technical-data h3 {
+  text-align: center;
+}
+
+#technical-data ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#technical-data ul li {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .features .highlights,
+  .gallery .image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery .p1 img,
+  .gallery .p2 img {
+    width: 60%;
+    margin: 1rem 0;
+  }
+}
 
